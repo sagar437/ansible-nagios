@@ -1,0 +1,6 @@
+---
+# vars file for nagios
+nagios_alert_email_id: devops@remoteto.com 
+nagiosadmin_password: nagiosadmin
+nagios_client_details:
+  - { hostname: "remoteto", alias: "remoteto", address: 23.239.9.6, services: [ "ping", "ssh" ] }  

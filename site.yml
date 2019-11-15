@@ -1,0 +1,6 @@
+- name: Playbook for configuring nagios server including clients and client services monitoring
+  hosts: nagios-server
+  remote_user: root
+  roles:
+    - nagios
+    - nagios-client
